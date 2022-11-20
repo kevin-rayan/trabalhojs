@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de alunos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color: gray; font-family: 'Anton', sans-serif; font-size:xx-large;">
+    <div class="container center mt-5" style="width: 500rem; background-color: whitesmoke; border-radius: 15px;">
+      <br>
+        <form align="center">
+            <div class="form-group">
+              <label>Nome do aluno</label>
+              <input type="text" class="form-control" id="nomeAluno">
+            </div>
+            <br>
+            <div class="form-group">
+              <label>Matrícula do aluno</label>
+              <input type="text" class="form-control" id="matricula">
+            </div>
+            <br>
+            <div class="form-group">
+              <label>Primeira nota</label>
+              <input type="number" class="form-control" id="nota1">
+            </div>
+            <br>
+            <div class="form-group">
+                <label>Segunda nota</label>
+                <input type="number" class="form-control" id="nota2">
+            </div>
+            <br>
+            <div class="form-group">
+                <label>Terceira nota</label>
+                <input type="number" class="form-control" id="nota3">
+            </div>
+            <br><br>
+            <div>
+              <button type="button" id="calcular" class="btn btn-primary">Calcular média</button>
+            </div>
+          </form>
+          <div id="resultado" align="center"></div>
+          <br><br>
+          <ul align="center">
+            <h2>Alunos cadastrados</h2>
+            <br>
+          </ul>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
